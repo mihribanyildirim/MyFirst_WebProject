@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Kayıt</title>
+    <!-- Shortcut İcon Link -->
+    <link rel="shortcut icon" href="foto/sinav.png" type="image/x-icon" />
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kayitdiv">
+        <div class="kayitfoto1"><img src="foto/sinav.png" alt="kurum logosu" class="kayitfoto"></div>
+
+        <p class="kayitp">Kayıt Formu</p>
+        <label>İsim : </label> <br>
+        <input type="text" placeholder="Adınızı giriniz"> <br><br>
+        <label>Soyisim : </label> <br>
+        <input type="text" placeholder="Soyadınızı giriniz"> <br><br>
+        <label>Telefon Numarası : </label> <br>
+        <input type="number" placeholder="+90 500 000 00 00"> <br><br>
+        <label>E-mail : </label> <br>
+        <input type="email" placeholder="example@gmail.com"> <br><br>
+        <label>Kullanıcı Adı : </label> <br>
+        <input type="text" placeholder="Kullanıcı adını giriniz"> <br><br>
+        <label>Şifre : </label> <br>
+        <input type="password" placeholder="Şifrenizi giriniz"> <br><br>
+        <label>Şifre Tekrar : </label> <br>
+        <input type="password" placeholder="Şifreyi tekrar giriniz"> <br><br>
+
+        <label>Şehir Seçiniz : </label>
+		<br>
+		<select>
+			<option>-----</option>
+			<option>İstanbul</option>
+			<option>Ankara</option>
+			<option>Adana</option>
+		</select><br> <br>
+        <label>Sınıf Kademesi :</label><br>
+        <select>
+            <option>Anaokulu</option>
+            <option>İlkokul</option>
+            <option>Ortaokul</option>
+            <option>Lise</option>
+        </select><br> <br>
+        <label>Kurs</label>
+		<br>
+		<input type="checkbox">
+		<br>
+		<label>Kolej</label>
+		<br>
+		<input type="checkbox">
+		<br>
+		<label>Özel Ders</label>
+		<br>
+		<input type="radio">
+		<br>
+		<input type="reset" value="Yenile">
+		<input type="submit" value="Kayıt Ol">
+    </div>
+</body>
+</html>

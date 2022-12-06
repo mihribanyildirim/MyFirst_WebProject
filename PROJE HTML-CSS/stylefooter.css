@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+/* Footer Css */
+.cls_footer {
+    background-color: rgb(132, 5, 5);
+    display: flex;
+    margin-top: 15px;
+}
+.inner_footer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4%;
+}
+.footer_left {
+    border-right: 5px solid rgb(241, 213, 232);
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.footer_left ul {
+    list-style-type: none;
+}
+.footer_left ul li a {
+    text-decoration: none;
+    color: rgb(237, 188, 208);
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer_left ul li a:hover {
+    color: rgb(234, 234, 167);
+}
+.footer_right ul {
+    list-style: none;
+    display: flex;
+}
+.footer_right ul li {
+    margin: 0 50px;
+}
+.footer_right ul li a {
+    color: rgb(237, 188, 208);
+}
+.footer_right ul li a:hover {
+    color: rgb(234, 234, 167);
+}
+.fa-brands {
+    font-size: 40px;
+}
+
+
+
